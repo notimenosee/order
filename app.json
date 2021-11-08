@@ -10,6 +10,32 @@
     "navigationBarTitleText": "Weixin",
     "navigationBarTextStyle":"black"
   },
+  "tabBar": {
+    "backgroundColor":"#ffffff",
+    "selectedColor":"#E4393c",
+    "list":[
+      {
+        "pagePath": "pages/index/index",
+        "selectedIconPath": "",
+        "iconPath": "",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "selectIconPath":"",
+        "iconPath": "",
+        "text": "预约界面"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "selectIconPath":"",
+        "iconPath": "",
+        "text": "我的"
+      }
+    ]
+
+
+  },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
 }
